@@ -1,3 +1,4 @@
+
 class Solution(object):
     def isPalindrome(self, s):
         left = 0
@@ -15,8 +16,8 @@ class Solution(object):
 
             if s[left].lower() != s[right].lower():
                 return False
-
-            left += 1
-            right -= 1
+            else:
+               left += 1
+               right -= 1
 
         return True
